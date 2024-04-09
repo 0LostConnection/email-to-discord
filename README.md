@@ -19,7 +19,8 @@ bun install
 To rodar:
 
 ```bash
-bun run index.js
+bun run index.js convert
+bun run index.js send
 ```
 
 This project was created using `bun init` in bun v1.0.35. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
