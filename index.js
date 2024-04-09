@@ -51,7 +51,7 @@ const sendMessages = async () => {
                 .setColor(15204352)
                 .setDescription('### Atenção\nMensagem enviada no e-mail institucional. Para acessar os links anexados, confira a sua própria caixa de entrada.')
 
-            await channel.send({ content: 'everyone', embeds: [emailEmbed, warnEmbed] })
+            await channel.send({ content: '@everyone', embeds: [emailEmbed, warnEmbed] })
             console.log("Mensagem enviada")
         })
 
