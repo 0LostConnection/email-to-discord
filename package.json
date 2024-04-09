@@ -1,0 +1,17 @@
+{
+  "name": "email-to-markdown",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "eml-parser": "^2.0.3",
+    "turndown": "^7.1.3"
+  }
+}
