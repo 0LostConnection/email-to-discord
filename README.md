@@ -1,6 +1,7 @@
 # email-to-discord
 
 Ferramenta para facilitar o reenvio de e-mails importantes que recebo da universidade.
+Converte arquivo `.eml` em arquivos `Markdown`
 
 ----
 
