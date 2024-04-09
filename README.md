@@ -1,12 +1,22 @@
 # email-to-discord
 
-To install dependencies:
+Ferramenta para facilitar o reenvio de e-mails importantes que recebo da universidade.
+
+----
+
+Configure o arquivo `.env`
+```
+BOT_TOKEN=
+WARN_CHANNEL_ID=
+```
+
+Para instalar as dependências
 
 ```bash
 bun install
 ```
 
-To run:
+To rodar:
 
 ```bash
 bun run index.js
